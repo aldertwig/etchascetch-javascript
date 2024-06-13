@@ -1,0 +1,37 @@
+<!-- Johan Ahlqvist -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EtchASketch</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1>Etch A Sketch</h1>
+        <p>Use the arrows to draw. Move the mouse over the buttons with double arrows for faster drawing.
+            Click on buttons with single arrow for finer drawing. Click on "Erase" to start over.
+        </p>
+        <div>
+            <canvas id="etchASketchCanvas"></canvas>
+        </div>
+        <div class="options">
+            <div class="horizontalMoveOptions">
+                <button><i class="fa fa-angle-double-left" onmousemove="horizontalMoveLeft()"></i></button>
+                <button><i class="fa fa-angle-left" onclick="horizontalMoveLeft()"></i></button>
+                <button><i class="fa fa-angle-right" onclick="horizontalMoveRight()"></i></button>
+                <button><i class="fa fa-angle-double-right" onmousemove="horizontalMoveRight()"></i></button>
+            </div>
+            <button class="reset" onclick="resetCoordinates()">Erase</button>
+            <div class="verticalMoveOptions">
+                <button><i class="fa fa-angle-double-up" onmousemove="verticalMoveUp()"></i></button>
+                <button><i class="fa fa-angle-up" onclick="verticalMoveUp()"></i></button>
+                <button><i class="fa fa-angle-down" onclick="verticalMoveDown()"></i></button>
+                <button><i class="fa fa-angle-double-down" onmousemove="verticalMoveDown()"></i></button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

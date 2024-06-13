@@ -1,0 +1,76 @@
+/* Johan Ahlqvist */
+
+#etchASketchCanvas {
+    background: white;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+p {
+    font-size: 20px;
+}
+
+.options {
+    display: flex;
+}
+
+.reset {
+    font-weight: bold;
+}
+
+.fa.fa-angle-left {
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+}
+
+.fa.fa-angle-right {
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+}
+
+.fa.fa-angle-up {
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+}
+
+.fa.fa-angle-down {
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+}
+
+.fa.fa-angle-double-left {
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+}
+
+.fa.fa-angle-double-right {
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+}
+
+.fa.fa-angle-double-up {
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+}
+
+.fa.fa-angle-double-down {
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+}
+
+.horizontalMoveOptions {
+    padding: 5px;
+}
+
+.verticalMoveOptions {
+    padding: 5px;
+}
